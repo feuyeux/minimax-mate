@@ -1,0 +1,8 @@
+[project]
+name = "minimaxi-image-generate"
+version = "0.1.0"
+description = "MiniMax image generation and download script"
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.33.0",
+]
