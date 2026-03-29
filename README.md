@@ -1,9 +1,19 @@
 # minimax-mate
 
+**[Token Plan](https://platform.minimaxi.com/subscribe/token-plan)标准版**：
+
+|                             | **Plus**           | **Max**               |
+| :-------------------------- | :----------------- | :-------------------- |
+| **M2.7**                    | 1,500 次请求/5小时 | 4,500 次请求/5小时    |
+| **Speech 2.8**              | 4,000 字符/日      | 11,000 字符/日        |
+| **image-01**                | 50 张/日           | 120 张/日             |
+| **Hailuo-2.3-Fast 768P 6s** | —                  | 2 个/日               |
+| **Hailuo-2.3 768P 6s**      | —                  | 2 个/日               |
+| **Music-2.5**               | —                  | 4 首/日（每首≤5分钟） |
+
 ## How to use
 
 ### MiniMax 文生图 Image 01
-
 
 ```bash
 uv sync
@@ -19,7 +29,7 @@ uv run python minimaxi-image-generate.py \
   --aspect-ratio 16:9 \
   --out-dir generated-images
 ```
-  
+
 ### MiniMax 语音 Speech 2.8
 
 ```bash
